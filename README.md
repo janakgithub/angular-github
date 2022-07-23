@@ -30,3 +30,5 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ##Creating a conflict by adding this line.
 
 Added comment from feature-y branch
+Added a comment from feature-x branch
+
