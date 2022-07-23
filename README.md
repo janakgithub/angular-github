@@ -29,4 +29,5 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## On main branch different line for conflict.
 ##Creating a conflict by adding this line.
 
-Added new comment from feature-x branch
+Added a comment from feature-x branch
+
