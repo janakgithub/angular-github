@@ -26,6 +26,13 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
+## Only on Merge to Master branch automated script will get executed which will:
+ 
+ 1. Install the dependencies npm install
+ 2. Unit Test the application using: ng test
+ 3. Build the application using: ng build
+
+
 ## On main branch different line for conflict.
 ##Creating a conflict by adding this line.
 
