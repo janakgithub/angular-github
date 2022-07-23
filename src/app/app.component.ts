@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'mywebsite';
+  status = "This is my new website";
+  footer = "Love Angular then rate us";
 }
