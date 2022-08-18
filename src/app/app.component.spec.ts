@@ -20,12 +20,25 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'mywebsite'`, () => {
+  it(`should have the title as 'mywebsite'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
     expect(app.title).toEqual('mywebsite');
     
   });
+
+  it(`should have the status as 'This is my new website'`, () => {
+    const fixture = TestBed.createComponent(AppComponent);
+    const app = fixture.componentInstance;
+    expect(app.status).toEqual('This is my new website 1');
+  });
+
+  it(`should have a footer as 'Love Angular then rate us'`, () => {
+    const fixture = TestBed.createComponent(AppComponent);
+    const app = fixture.componentInstance;
+    expect(app.footer).toEqual('Love Angular then rate us 1');
+  });
+  
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
