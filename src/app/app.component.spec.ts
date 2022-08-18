@@ -29,13 +29,13 @@ describe('AppComponent', () => {
   it(`should have the status as 'This is my new website'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.status).toEqual('This is my new website12');
+    expect(app.status).toEqual('This is my new website');
   });
 
   it(`should have a footer as 'Love Angular then rate us'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.footer).toEqual('Love Angular then rate12');
+    expect(app.footer).toEqual('Love Angular then rate us');
   });
   
 
