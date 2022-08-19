@@ -31,6 +31,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
  1. Install the dependencies npm install
  2. Unit Test the application using: ng test
  3. Build the application using: ng build
+ 
 
 
 ## On main branch different line for conflict.
@@ -42,3 +43,4 @@ Added comment from feature-y branch
 Added a comment from feature-x branch
 Test
 Test 2
+Test 3
